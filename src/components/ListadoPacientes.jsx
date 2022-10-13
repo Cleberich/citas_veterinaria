@@ -11,7 +11,7 @@ const ListadoPacientes = ({pacientes, setPaciente, eliminarPaciente}) => {
 
 
   return (
-    <div className="md:w-1/2 lg:w-3/5 md:h-screen overflow-y-scroll">
+    <div className="md:w-1/2 lg:w-3/5  md:overflow-y-scroll xs:mt-5 ">
           <h2  className="text-center font-bold text-3xl">{ pacientes.length > 0 ? 'Listado de Pacientes': 'Aún no hay pacientes'}</h2>
               <p className="text-center text-lg mt-5">Administra tus
                 <span className="text-green-600 font-bold"> pacientes y citas</span>
